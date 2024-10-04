@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Móveis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <nav>
+        <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre-nos"> Sobre Nós </a></li>
+            <li><a href="#carrossel">Carrossel</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#infografico">Infográfico</a></li>
+            <li><a href="#video">Vídeo</a></li>
+            <li><a href="#depoimentos"> Depoimentos </a></li>
+            <li><a href="#equipe"> Nossa equipe</a></li>
+            <li><a href="#contato"> Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo à Loja Casa & conforto</h1>
+            <p>Móveis que combinam com seu estilo de vida</p>
+        </div>
+    </section>
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <div class="sobre-nos-content">
+            <p>A Loja Casa & Conforto é uma empresa especializada em oferecer móveis de alta qualidade que atendem ao seu estilo de vida. Nossa missão é garantir conforto e design moderno para nossos clientes, com um toque de sofisticação e funcionalidade.</p>
+            <p>Com anos de experiência no mercado, nossa equipe se dedica a encontrar as melhores soluções em decoração para tornar a sua casa um lugar ainda mais aconchegante.</p>
+        </div>
+    </section>
+    <section id="carrossel">
+        <div class="carrossel">
+            <input type="radio" id="slide1" name="carrossel" checked>
+            <input type="radio" id="slide2" name="carrossel">
+            <input type="radio" id="slide3" name="carrossel">
+
+            <div class="carrossel-slides">
+                <div class="carrossel-slide">
+                    <img src="imagens/movel1.jpg" alt="Produto 1">
+                    <div class="carrossel-caption">Sua sala de estar planejada!</div>
+                </div>
+                <div class="carrossel-slide">
+                    <img src="imagens/movel2.jpg" alt="Produto 2">
+                    <div class="carrossel-caption"> Todos os tipos de cores e modelos!</div>
+                </div>
+                <div class="carrossel-slide">
+                    <img src="imagens/movel3.jpg" alt="Produto 3">
+                    <div class="carrossel-caption"> Você só encontra aqui!</div>
+                </div>
+            </div>
+
+            <div class="carrossel-nav">
+                <label for="slide1" class="carrossel-dot"></label>
+                <label for="slide2" class="carrossel-dot"></label>
+                <label for="slide3" class="carrossel-dot"></label>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Cartões de Produtos -->
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produtos-grid">
+            <div class="produto-card">
+                <img src="imagens/produtos1.jpg" alt="Produto 1">
+                <h3>Sofá Confortável</h3>
+                <p>R$ 3.299,99</p>
+            </div>
+            <div class="produto-card">
+                <img src="imagens/produto2.jpg" alt="Produto 2">
+                <h3>Guarda-roupa casal</h3>
+                <p>R$1.879,99</p>
+            </div>
+            <div class="produto-card">
+                <img src="imagens/produto3.jpeg" alt="Produto 3">
+                <h3>Mesa de Jantar</h3>
+                <p>R$ 1.459.99
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infográfico -->
+    <section id="infografico">
+        <h2>Porque escolher nossos móveis</h2>
+        <div class="infografico-container">
+            <div class="infografico-item">
+                <img src="imagens/icone1.jpeg" alt="Ícone 1">
+                <p>Design Moderno</p>
+            </div>
+            <div class="infografico-item">
+                <img src="imagens/icone2.jpeg" alt="Ícone 2">
+                <p>Alta Qualidade</p>
+            </div>
+            <div class="infografico-item">
+                <img src="imagens/icone3.jpeg" alt="Ícone 3">
+                <p>Conforto Garantido</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vídeo Incorporado -->
+    <section id="video">
+        <h2>Conheça mais sobre nossos produtos</h2>
+        <video controls>
+            <source src="video/video1.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+    </section>
+    <section id="depoimentos">
+    <div class="grid-container">
+        <div class="imagem-coluna">
+            <img src="imagens/depoimentos01.jpeg" alt="Depoimento 1">
+            <img src="imagens/depoimento02.jpeg" alt="Depoimento 2">
+            <img src="imagens/depoimento03.jpeg" alt="Depoimento 3">
+        </div>
+        <div class="texto-coluna">
+            <div class="depoimento-card">
+                <p>"Este serviço é incrível! Eu recomendo a todos."</p>
+                <h3>Camila Paiva</h3>
+            </div>
+            <div class="depoimento-card">
+                <p>"Uma experiência maravilhosa do início ao fim!"</p>
+                <h3>Maria Oliveira</h3>
+            </div>
+            <div class="depoimento-card">
+                <p>"Excelente qualidade e atendimento de primeira."</p>
+                <h3>Carlos Souza</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="equipe">
+        <h2 class="titulo">Nossa Equipe</h2>
+
+        <div class="equipe-container">
+            <div class="equipe-card">
+                <img src="imagens/foto01.jpeg" alt="Membro da Equipe" class="imagem-equipe">
+                <div class="info-equipe">
+                    <h3>Ana Beatriz</h3>
+                    <p>Gerente de vendas</p>
+                </div>
+            </div>
+
+            <div class="equipe-card">
+                <img src="imagens/foto02.jpg" alt="Membro da Equipe" class="imagem-equipe">
+                <div class="info-equipe">
+                    <h3>lucas Almeida</h3>
+                    <p>Designer de Interiores</p>
+                </div>
+            </div>
+            <div class="equipe-card">
+                <img src="imagens/foto03.jpeg" alt="Membro da Equipe" class="imagem-equipe">
+                <div class="info-equipe">
+                    <h3>Caroline Vieira </h3>
+                    <p>Consultora de Decorações</p>
+        </div>
+        </div>
+    </section>
+
+
+
+
+                <section id="contato">
+                    <h2>Entre em contato conosco</h2>
+                    <div class="contato-form">
+                        <form action="envia-email.php" method="post">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Seu email" required>
+                            
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                            
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Loja de Móveis. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
